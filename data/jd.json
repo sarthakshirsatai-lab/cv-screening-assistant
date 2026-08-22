@@ -1,0 +1,33 @@
+{
+  "title": "Warehouse Operations Associate",
+  "requirements": [
+    {
+      "criterion_key": "years_experience",
+      "criterion_label": "2+ years of warehouse/distribution experience"
+    },
+    {
+      "criterion_key": "forklift_cert",
+      "criterion_label": "Forklift certification"
+    },
+    {
+      "criterion_key": "rf_wms_experience",
+      "criterion_label": "RF scanner / WMS experience"
+    },
+    {
+      "criterion_key": "lift_50lbs",
+      "criterion_label": "Ability to lift up to 50 lbs"
+    },
+    {
+      "criterion_key": "education_level",
+      "criterion_label": "High school diploma / GED minimum"
+    },
+    {
+      "criterion_key": "shift_availability",
+      "criterion_label": "Availability for weekend/flexible shifts"
+    },
+    {
+      "criterion_key": "inventory_picking",
+      "criterion_label": "Inventory management / order picking experience"
+    }
+  ]
+}

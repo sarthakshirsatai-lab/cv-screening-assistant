@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Screening Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-logo">Screener</div>
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-item nav-item--active">Dashboard</a>
+        </nav>
+    </aside>
+
+    <main class="main">
+        <header class="main-header">
+            <div>
+                <h1 class="page-title">CV Screening Dashboard</h1>
+                <p class="page-subtitle" id="last-run-subtitle">Last run: {{ last_run or "Never" }}</p>
+            </div>
+            <button id="start-screening-btn" class="btn-primary">Start Screening</button>
+        </header>
+
+        <p id="error-banner" class="error-banner" hidden></p>
+
+        <section class="stats-row" id="stats-row"></section>
+
+        <section class="candidates-list" id="candidates-list"></section>
+
+        <nav class="pagination" id="pagination" hidden></nav>
+    </main>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
